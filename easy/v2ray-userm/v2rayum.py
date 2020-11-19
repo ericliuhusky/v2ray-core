@@ -2,6 +2,7 @@ import argparse
 import json
 from db import Database
 import time
+import os
 
 db = Database()
 
@@ -28,6 +29,9 @@ def config():
     file = open('/usr/local/etc/v2ray/config.json', 'w')
     file.write(config_json)
     file.close()
+    # 重新启动v2ray以更新配置文件
+    os.system('systemctl stop v2ray')
+    os.system('systemctl start v2ray')
 
 
 def add_one(time, name):
