@@ -17,6 +17,15 @@
 
 Project V is a set of network tools that help you to build your own computer network. It secures your network connections and thus protects your privacy. See [our website](https://www.v2fly.org/) for more information.
 
+## Quick Start
+服务端快速部署
+1. wget https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/easy.tar
+2. tar xvf easy.tar
+3. cd easy
+4. ./v2raysev.sh
+5. systemctl start v2ray
+6. address:VPS.IP, port:10086, id:b831381d-6324-4d53-ad4f-8cda48b30811, alterId:0, level:0
+
 ## License
 
 [The MIT License (MIT)](https://raw.githubusercontent.com/v2fly/v2ray-core/master/LICENSE)
