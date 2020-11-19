@@ -26,6 +26,18 @@ Project V is a set of network tools that help you to build your own computer net
 5. systemctl start v2ray
 6. address:VPS.IP, port:10086, id:b831381d-6324-4d53-ad4f-8cda48b30811, alterId:0, level:0
 
+服务端用户管理
+1. wget https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/v2rayum.tar
+2. tar xvf v2rayum.tar
+3. mv v2rayum /usr/local/bin
+4. v2rayum -h查看帮助
+5. v2rayum执行自动删除过期用户
+
+客户端下载
+- MacOS https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/V2rayU.dmg
+- Windows https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/v2rayN-Core.zip
+- Android https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/v2rayNG_1.3.3.apk.zip
+
 ## License
 
 [The MIT License (MIT)](https://raw.githubusercontent.com/v2fly/v2ray-core/master/LICENSE)
