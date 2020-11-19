@@ -24,7 +24,7 @@ Project V is a set of network tools that help you to build your own computer net
 3. cd easy
 4. ./v2raysev.sh
 5. systemctl start v2ray
-6. address:VPS.IP, port:10086, id:b831381d-6324-4d53-ad4f-8cda48b30811, alterId:0, level0
+6. address:VPS.IP, port:10086, id:b831381d-6324-4d53-ad4f-8cda48b30811, alterId:0, level:0
 
 ## License
 
