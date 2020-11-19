@@ -31,7 +31,7 @@ Project V is a set of network tools that help you to build your own computer net
 2. tar xvf v2rayum.tar
 3. mv v2rayum /usr/local/bin
 4. v2rayum -h查看帮助
-5. v2rayum执行自动删除过期用户
+5. nohup v2rayum 后台不间断执行自动删除过期用户
 
 客户端下载
 - MacOS https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/V2rayU.dmg
