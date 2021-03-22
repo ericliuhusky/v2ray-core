@@ -38,7 +38,7 @@ Project V is a set of network tools that help you to build your own computer net
 - Windows https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/v2rayN-Core.zip
 - Android https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/v2rayNG_1.3.3.apk.zip
 
-###Tips: 记得开放云服务器的10086端口
+### Tips: 记得开放云服务器的10086端口
 
 ## License
 
