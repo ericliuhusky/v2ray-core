@@ -44,6 +44,9 @@ mkdir /usr/local/etc/v2ray
 fi
 mv config.json /usr/local/etc/v2ray
 # 把system service控制台服务描述文件移动到/usr/lib/systemd/system
+if ! test -d /usr/lib/systemd/system
+then
+mkdir /usr/lib/systemd/system
 mv systemd/system/v2ray.service /usr/lib/systemd/system
 # 同步重新加载描述文件
 systemctl daemon-reload
