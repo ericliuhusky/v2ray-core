@@ -38,7 +38,11 @@ Project V is a set of network tools that help you to build your own computer net
 - Windows https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/v2rayN-Core.zip
 - Android https://github.com/ericliuhusky/v2ray-core/releases/download/5.3/v2rayNG_1.3.3.apk.zip
 
-### Tips: 建议使用Debian操作系统，记得开放云服务器的10086端口
+### Tips: 
+1. 建议使用Debian10, Ubantu20操作系统
+2. 记得开放云服务器安全组的V2Ray:10086端口
+3. 下载安装mongodb，官网有文档
+4. 记得开放云服务器安全组的MongoDB:27017端口
 
 ## License
 
